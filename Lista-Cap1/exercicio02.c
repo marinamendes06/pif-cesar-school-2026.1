@@ -6,7 +6,7 @@ int main(){
 
     float num = 3.14159f;
 
-    printf("O número de π é: %.3f \n", num);
+    printf("O número de π é: %.3f\n", num);
 
     return 0;
 }
