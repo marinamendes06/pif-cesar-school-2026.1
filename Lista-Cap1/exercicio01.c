@@ -6,7 +6,7 @@ int main(){
 
     int num = 2026;
 
-    printf("O ano que estamos é: %d", num);
+    printf("O ano que estamos é: %d \n", num);
 
     return 0;
 }
