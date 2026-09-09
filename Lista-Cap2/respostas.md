@@ -1,7 +1,9 @@
 # Respostas Lista Cap 2
 
 1- a) 2
+   
    b) A variável é do tipo int e o valor atribuído é float. Assim, a parte fracionária é descartada e resta apenas o número inteiro. Nome do fenômeno: Coerção Implícita de Tipo (ou conversão implícita) e Truncamento (perda da parte decimal).
+   
    c) Para evitar ou controlar esse comportamento:
 - Manter precisão: Use o tipo double (ou float) com %f no printf.
 - Truncamento consciente: Use casting explícito (int) 2.97 para indicar a conversão proposital.
