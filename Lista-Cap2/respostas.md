@@ -9,8 +9,11 @@
 - Truncamento consciente: Use casting explícito (int) 2.97 para indicar a conversão proposital.
 - Arredondamento: Use a função round() da biblioteca <math.h> para arredondar ao inteiro mais próximo (ex: (int) round(2.97) resulta em 3).
 
+
 2- a) Essa biblioteca é antiga e foi feita só para o MS-DOS/Windows. Como ela não é um padrão da linguagem C, o seu código simplesmente não vai compilar no Linux, macOS ou em servidores. Usá-la prende seu programa a um único sistema.
+   
    b) Para ler: getchar() ou fgetc(stdin), para mostrar: putchar() ou fputc(c, stdout). A única diferença prática é que elas esperam o usuário apertar [ENTER] antes de enviar o dado, já que funcionam com buffer.
+   
    c) na subpasta 
 
    3- 
