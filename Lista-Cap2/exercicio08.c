@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &numero);
 
     int quadrado = numero * numero;
-    double decima_parte = numero / 10.0; // O .0 evita o truncamento da divisao inteira
+    double decima_parte = numero / 10.0; 
 
     printf("a) Quadrado: %d\n", quadrado);
     printf("b) Decima parte: %.2f\n", decima_parte);
