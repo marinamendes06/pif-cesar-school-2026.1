@@ -103,7 +103,7 @@ Trecho A: n = 6, x = 6 (Somou antes de salvar no x)
 
 Trecho B: m = 6, y = 5 (Salvou o 5 no y e só depois somou)
 
-   b) O C não garante a ordem em que ele resolve os argumentos passados para uma função (ele pode ler da esquerda para a direita ou vice-versa, dependendo do compilador). Quando você tenta ler n e alterar seu valor (n++) dentro da mesma linha, gera o que chamamos de comportamento indefinido. Na prática, o resultado fica imprevisível e pode mudar totalmente de um computador para outro.
+   b) O  C não garante a ordem em que ele resolve os argumentos passados para uma função (ele pode ler da esquerda para a direita ou vice-versa, dependendo do compilador). Quando você tenta ler n e alterar seu valor (n++) dentro da mesma linha, gera o que chamamos de comportamento indefinido. Na prática, o resultado fica imprevisível e pode mudar totalmente de um computador para outro.
 
 
 
