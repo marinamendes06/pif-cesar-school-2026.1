@@ -16,4 +16,53 @@
    
    c) na subpasta 
 
-   3- 
+4- a = 33
+   b = 20
+   c = 13
+   d = 1
+
+Cálculo e Justificativa Passo a Passo
+
+Estado Inicial: a = 1, b = 2, c = 3, d = 4
+
+1) a += b + c
+   b + c --> 2 + 3 = 5
+   a = a + 5 --> 1 + 5 = 6
+   a = 6, b = 2, c = 3, d = 4.
+
+2) b *= c = d + 2
+   d + 2 --> 4 + 2 = 6
+   c = 6
+   b *= 6 --> b = 2 * 6 = 12
+   a = 6, b = 12, c = 6, d = 4.
+
+3) d %= a + a + a;
+   a + a + a --> 6 + 6 + 6 = 18
+   d = 4 % 18 = 4
+   a = 6, b = 12, c = 6, d = 4.
+
+4) d -= c -= b -= a
+   b -= a --> b = 12 - 6 = 6 (novo b = 6)
+   c -= b --> c = 6 - 6 = 0 (novo c = 0)
+   d -= c --> d = 4 - 0 = 4
+   a = 6, b = 6, c = 0, d = 4.
+
+5) a += b += c += 7;
+   c += 7 --> c = 0 + 7 = 7 (novo c = 7)
+   b += c --> b = 6 + 7 = 13 (novo b = 13)
+   a += b --> a = 6 + 13 = 19 (novo a = 19)
+
+
+5- a) 1
+   b) 0
+   c) 0
+   d) 0
+   e) 1
+   f) 0
+   g) 1
+   h) 1
+   i) 0
+   j) 0
+
+   
+   
