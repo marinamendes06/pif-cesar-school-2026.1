@@ -39,4 +39,20 @@ i = 2, j = 8 | soma = 10
 i = 3, j = 7 | soma = 10
 i = 4, j = 6 | soma = 10
 
-5- 
+6- a) O valor final impresso será 6.
+
+b) Passo a passo das avaliações (x++ < 5):
+
+Como o pós-incremento (x++) usa o valor atual de x na comparação e só incrementa depois:
+
+x = 0: compara 0 < 5 (Verdadeiro). x vira 1.
+
+x = 1: compara 1 < 5 (Verdadeiro). x vira 2.
+
+x = 2: compara 2 < 5 (Verdadeiro). x vira 3.
+
+x = 3: compara 3 < 5 (Verdadeiro). x vira 4.
+
+x = 4: compara 4 < 5 (Verdadeiro). x vira 5.
+
+x = 5: compara 5 < 5 (Falso). O laço encerra, mas o incremento ainda acontece, fazendo x virar 6.
