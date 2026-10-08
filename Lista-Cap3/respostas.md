@@ -14,3 +14,29 @@ c) É um erro de lógica. O ponto e vírgula indica um corpo vazio. Se a condiç
 b) Porque como somafoi declarada dentro do laço, ela é destruída ao final de cada iteração e recriada com o valor 0na iteração seguinte. Assim, ela nunca acumula a soma total, calculando apenas o quadrado idaquela iteração específica.
 
 
+3- **a)** A sequência impressa é: `36`, `18`, `9`, `4`, `2`, `1`.
+
+*(Como a divisão é entre inteiros, os decimais são truncados: 9 / 2 = 4, 4 / 2 = 2, 2 / 2 = 1, e 1 / 2 = 0, encerrando o laço).*
+
+**b)**
+
+* **Comportamento e `ch + 1`:** O trecho lê caracteres do teclado sem precisar de Enter (`getch()`) e imprime o caractere seguinte na tabela ASCII (ex: digita 'A', imprime 'B'). O laço encerra quando o usuário digita 'X'.
+* **Necessidade dos parênteses:** Em C, o operador de comparação `!=` tem precedência sobre o de atribuição `=`. Sem os parênteses, `ch = getch() != 'X'` avaliaria primeiro se o caractere é diferente de `'X'` (resultando em 0 ou 1) e depois atribuiria esse valor booleano a `ch`, em vez de guardar o caractere lido.
+
+**c)** O laço pode ser interrompido usando o comando `break;` dentro de uma condição `if` no corpo do laço, ou chamando um `return` caso esteja dentro de uma função.
+
+4- **a)** O `break` encerra imediatamente a execução do laço (`for` ou `while`). O programa descarta o restante das instruções do laço e salta para a primeira linha de código logo após a chave de fechamento desse laço.
+
+**b)** O `continue` interrompe apenas a iteração atual, pulando o restante do código do corpo do laço e avançando para a próxima iteração. No caso do `for`, a expressão executada imediatamente após o `continue` é a **expressão de incremento/decremento** (a terceira expressão do cabeçalho).
+
+**c)** Apenas o **laço interno** é interrompido. O `break` atua somente sobre o laço em que está diretamente contido, fazendo com que o laço externo continue sua execução normalmente na iteração seguinte.
+
+5- a) O laço executará exatamente 5 iterações (para $i = 0, 1, 2, 3, 4$ e $j = 10, 9, 8, 7, 6$). Quando $i$ e $j$ chegam a 5, a condição $i < j$ torna-se falsa e o laço encerra.
+
+b) i = 0, j = 10 | soma = 10
+i = 1, j = 9 | soma = 10
+i = 2, j = 8 | soma = 10
+i = 3, j = 7 | soma = 10
+i = 4, j = 6 | soma = 10
+
+5- 
